@@ -1,1 +1,5 @@
-/data-3463-final-project/notebooks/.ipynb_checkpoints
+# Jupyter autosave backups
+.ipynb_checkpoints/
+
+# Mac folder settings
+.DS_Store
