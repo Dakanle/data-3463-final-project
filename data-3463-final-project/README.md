@@ -16,7 +16,7 @@ Everyone "knows" analysts use SQL and engineers use the cloud. We want to test t
 | Database / open data | [Job Bank postings dataset](https://open.canada.ca/data/en/dataset/ea639e28-c0fc-48bf-b5dd-b8899bd43072) (monthly CSVs, loaded into SQLite) | Postings with occupation (NOC) code, salary, requirements, several months of history |
 | Web scraping | [Job Bank wage pages](https://www.jobbank.gc.ca/marketreport/wages-occupation/17882/ca) | Median wage by occupation and economic region (the benchmark) |
 | Geospatial | Adzuna coordinates + StatCan economic region boundaries | The region of each posting, which is the key used to join the wage benchmark |
-| 4th (beyond class) | *To be decided* | |
+| 4th (beyond class) | RSS | Jobicy (https://jobicy.com/jobs/feed)|
 
 ## The dataset
 
