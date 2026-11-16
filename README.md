@@ -29,4 +29,3 @@ Planned dataset
 The final dataset we have planned will have one row per job posting with columns that include roles (analyst, scientist, or engineer), posting details (employer, location, salary, etc.), and skills (python, sql, excel, tableau, ml, etc.) which will be a 0/1 column.
 
 We would appreciate any feedback on our topic and planned sources, and whether this approach meets the project requirements. Please let us know if there is anything we should adjust.
-111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111
