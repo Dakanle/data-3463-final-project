@@ -4,3 +4,6 @@
 # Mac folder settings
 .DS_Store
 .env
+
+# Python bytecode
+__pycache__/
