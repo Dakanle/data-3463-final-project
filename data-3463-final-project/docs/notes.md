@@ -1,0 +1,50 @@
+# Notes
+
+## API - TheirStack Jobs API
+
+Pulled on Nov 22, 2026 using a free TheirStack account (200 API credits, used about 155).
+
+Endpoint: POST https://api.theirstack.com/v1/jobs/search
+The key is stored in .env (not on GitHub) and sent as a Bearer token.
+
+Search filters: jobs in Canada (country code CA), posted in the last 90 days, job title matching "data analyst", "data engineer" or "data scientist".
+
+How it works: first a small test request (data analyst, 5 postings) to check the key and see what fields a posting has. Then a loop over the 3 roles, 2 pages each. The free plan only allows 25 results per request, so each role is page 0 + page 1 = 50 postings. Every response is saved unchanged as JSON in data/raw/theirstack/, one file per role and page, and each request prints a log line with the time and status.
+
+Result: 7 files, 155 rows, 149 unique postings (6 duplicates, mostly the test postings showing up again in the data analyst pull). Posted between Nov 17 and Nov 22, 2026.
+
+Problems / limitations:
+- Only 50 postings per role because of the free plan, and they're the newest ones (TheirStack returns the most recent first), so all are from the last week even though we asked for 90 days. Not a random sample.
+- Title search is loose, so some postings aren't really data jobs (for example "Business Analyst Co-op, Data Governance"). These get filtered in cleaning.
+- Only 45 of 149 postings list a salary, and only 2 are tagged junior (93 mid level, 53 senior).
+- 147 of 149 have coordinates, which we use for the map.
+- Adzuna was tested first (Oct 2026) and rejected: descriptions cut at 500 characters, lots of non-data titles, and its terms restrict academic use. Those files are kept in data/raw/adzuna/ for reference.
+
+## API 
+
+
+
+
+
+## Web scraping - Job Bank wages
+
+Scraped on Nov 21, 2026 from Job Bank's wage reports. The wages themselves come from Statistics Canada's Labour Force Survey (2024-2025).
+
+Pages we used:
+- data analyst -> data warehouse analyst, NOC 21223: https://www.jobbank.gc.ca/wagereport/occupation/17880
+- data engineer -> data engineer, NOC 21211: https://www.jobbank.gc.ca/wagereport/occupation/24510
+- data scientist -> data scientist, NOC 21211: https://www.jobbank.gc.ca/wagereport/occupation/227147
+
+robots.txt doesn't block anything, it just says Crawl-delay: 5, so we waited 5 seconds between pages. Only 3 requests total. Screenshot is in docs/jobbank_robots_2026-11-22.png.
+
+How it works: requests.get() each page and save the raw HTML to data/raw/wages_html/. Then BeautifulSoup grabs the region and province rows from the wage table (tr.wage-region and tr.wage-province) and pulls the low, median and high wage from each row. Saved to data/clean/jobbank_wages_by_region.csv, 255 rows (72 regions + 13 provinces/territories, for each of the 3 roles). Wages are per hour.
+
+Problems / limitations:
+- Job Bank gives wages by NOC, not by job title. Data engineer and data scientist are both 21211, so they have the same wages.
+  
+- 136 of the 255 rows have no wage. The site just shows N/A because there isn't enough data for that job in smaller regions. Regions with a median wage: analyst 39 of 72, engineer 26 of 72, scientist 26 of 72.
+
+- No province wage for YT, NT, NU or PE. When a region is N/A we'll use the province wage instead.
+
+- 
+- The wages are from 2024-2025 but our API job postings are from Oct 2026.

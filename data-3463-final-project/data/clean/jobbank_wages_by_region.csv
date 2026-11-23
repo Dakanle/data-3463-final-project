@@ -1,0 +1,256 @@
+level,role,noc,province,region,wage_low,wage_median,wage_high
+province,data analyst,21223,NL,Newfoundland and Labrador,23.39,43.75,56.92
+region,data analyst,21223,NL,Avalon Peninsula Region,25.64,43.75,52.88
+region,data analyst,21223,NL,Notre Dame-Central-Bonavista Bay Region,,,
+region,data analyst,21223,NL,South Coast–Burin Peninsula Region,,,
+region,data analyst,21223,NL,West Coast–Northern Peninsula–Labrador Region,,,
+province,data analyst,21223,PE,Prince Edward Island,36.0,42.37,62.93
+province,data analyst,21223,NS,Nova Scotia,25.87,40.85,65.93
+region,data analyst,21223,NS,Annapolis Valley Region,,,
+region,data analyst,21223,NS,Cape Breton Region,,,
+region,data analyst,21223,NS,Halifax Region,,,
+region,data analyst,21223,NS,North Shore Region,,,
+region,data analyst,21223,NS,Southern Region,,,
+province,data analyst,21223,NB,New Brunswick,26.92,40.87,64.1
+region,data analyst,21223,NB,Campbellton–Miramichi Region,30.58,41.25,56.0
+region,data analyst,21223,NB,Edmundston–Woodstock Region,,,
+region,data analyst,21223,NB,Fredericton–Oromocto,25.82,40.87,48.0
+region,data analyst,21223,NB,Moncton–Richibucto Region,31.52,40.87,65.93
+region,data analyst,21223,NB,Saint John–St. Stephen Region,32.55,44.06,59.07
+province,data analyst,21223,QC,Quebec,24.04,40.38,69.71
+region,data analyst,21223,QC,Abitibi-Témiscamingue Region,26.09,40.97,62.49
+region,data analyst,21223,QC,Bas-Saint-Laurent Region,27.45,42.44,60.05
+region,data analyst,21223,QC,Capitale-Nationale Region,29.0,43.14,50.55
+region,data analyst,21223,QC,Centre-du-Québec Region,28.33,43.24,60.97
+region,data analyst,21223,QC,Chaudière-Appalaches Region,27.98,42.63,60.09
+region,data analyst,21223,QC,Côte-Nord Region,,,
+region,data analyst,21223,QC,Estrie Region,24.83,41.08,63.61
+region,data analyst,21223,QC,Gaspésie–Îles-de-la-Madeleine Region,,,
+region,data analyst,21223,QC,Lanaudière Region,28.33,42.74,60.96
+region,data analyst,21223,QC,Laurentides Region,29.52,45.38,66.03
+region,data analyst,21223,QC,Laval Region,28.73,44.98,65.56
+region,data analyst,21223,QC,Mauricie Region,27.03,40.76,55.85
+region,data analyst,21223,QC,Montréal Region,26.56,43.68,65.21
+region,data analyst,21223,QC,Montérégie Region,28.72,46.1,67.83
+region,data analyst,21223,QC,Nord-du-Québec Region,,,
+region,data analyst,21223,QC,Outaouais Region,29.67,45.7,61.32
+region,data analyst,21223,QC,Saguenay–Lac-Saint-Jean Region,27.86,42.51,58.65
+province,data analyst,21223,ON,Ontario,24.73,41.03,62.5
+region,data analyst,21223,ON,Hamilton–Niagara Peninsula Region,29.33,43.99,68.16
+region,data analyst,21223,ON,Kingston–Pembroke Region,28.05,41.15,51.0
+region,data analyst,21223,ON,Kitchener–Waterloo–Barrie Region,26.64,45.64,66.44
+region,data analyst,21223,ON,London Region,27.43,43.39,61.98
+region,data analyst,21223,ON,Muskoka–Kawarthas Region,,,
+region,data analyst,21223,ON,Northeast Region,30.19,46.22,59.01
+region,data analyst,21223,ON,Northwest Region,29.11,44.94,63.42
+region,data analyst,21223,ON,Ottawa Region,33.0,45.19,61.54
+region,data analyst,21223,ON,Stratford–Bruce Peninsula Region,,,
+region,data analyst,21223,ON,Toronto Region,26.36,41.38,62.69
+region,data analyst,21223,ON,Windsor-Sarnia Region,27.46,45.41,68.36
+province,data analyst,21223,MB,Manitoba,22.03,44.71,50.77
+region,data analyst,21223,MB,Interlake Region,,,
+region,data analyst,21223,MB,North Central Region,,,
+region,data analyst,21223,MB,North Region,,,
+region,data analyst,21223,MB,Parklands Region,,,
+region,data analyst,21223,MB,South Central Region,,,
+region,data analyst,21223,MB,Southeast Region,28.18,41.85,62.34
+region,data analyst,21223,MB,Southwest Region,,,
+region,data analyst,21223,MB,Winnipeg Region,23.77,44.71,51.68
+province,data analyst,21223,SK,Saskatchewan,26.25,44.4,61.03
+region,data analyst,21223,SK,Northern Region,,,
+region,data analyst,21223,SK,Prince Albert Region,,,
+region,data analyst,21223,SK,Regina–Moose Mountain Region,30.96,45.76,64.01
+region,data analyst,21223,SK,Saskatoon–Biggar Region,28.45,42.58,63.69
+region,data analyst,21223,SK,Swift Current–Moose Jaw Region,,,
+region,data analyst,21223,SK,Yorkton–Melville Region,,,
+province,data analyst,21223,AB,Alberta,25.38,38.46,65.79
+region,data analyst,21223,AB,Athabasca–Grande Prairie–Peace River Region,,,
+region,data analyst,21223,AB,Banff–Jasper–Rocky Mountain House Region,32.97,46.19,62.13
+region,data analyst,21223,AB,Calgary Region,28.56,44.99,68.44
+region,data analyst,21223,AB,Camrose–Drumheller Region,,,
+region,data analyst,21223,AB,Edmonton Region,30.67,45.45,64.6
+region,data analyst,21223,AB,Lethbridge–Medicine Hat Region,26.16,42.01,66.62
+region,data analyst,21223,AB,Red Deer Region,,,
+region,data analyst,21223,AB,Wood Buffalo–Cold Lake Region,,,
+province,data analyst,21223,BC,British Columbia,30.0,40.38,60.0
+region,data analyst,21223,BC,Cariboo Region,,,
+region,data analyst,21223,BC,Kootenay Region,,,
+region,data analyst,21223,BC,Lower Mainland–Southwest Region,30.0,40.0,60.0
+region,data analyst,21223,BC,Nechako Region,,,
+region,data analyst,21223,BC,North Coast Region,,,
+region,data analyst,21223,BC,Northeast Region,,,
+region,data analyst,21223,BC,Thompson–Okanagan Region,32.62,45.87,64.28
+region,data analyst,21223,BC,Vancouver Island and Coast Region,28.75,42.05,52.33
+province,data analyst,21223,YT,Yukon Territory,,,
+province,data analyst,21223,NT,Northwest Territories,,,
+province,data analyst,21223,NU,Nunavut,,,
+province,data engineer,21211,NL,Newfoundland and Labrador,36.0,45.87,66.67
+region,data engineer,21211,NL,Avalon Peninsula Region,39.58,45.87,66.67
+region,data engineer,21211,NL,Notre Dame-Central-Bonavista Bay Region,,,
+region,data engineer,21211,NL,South Coast–Burin Peninsula Region,,,
+region,data engineer,21211,NL,West Coast–Northern Peninsula–Labrador Region,,,
+province,data engineer,21211,PE,Prince Edward Island,,,
+province,data engineer,21211,NS,Nova Scotia,30.0,47.9,73.85
+region,data engineer,21211,NS,Annapolis Valley Region,,,
+region,data engineer,21211,NS,Cape Breton Region,,,
+region,data engineer,21211,NS,Halifax Region,30.0,47.9,74.0
+region,data engineer,21211,NS,North Shore Region,,,
+region,data engineer,21211,NS,Southern Region,,,
+province,data engineer,21211,NB,New Brunswick,25.28,44.99,71.14
+region,data engineer,21211,NB,Campbellton–Miramichi Region,,,
+region,data engineer,21211,NB,Edmundston–Woodstock Region,,,
+region,data engineer,21211,NB,Fredericton–Oromocto,25.82,43.13,70.33
+region,data engineer,21211,NB,Moncton–Richibucto Region,26.42,43.42,67.06
+region,data engineer,21211,NB,Saint John–St. Stephen Region,,,
+province,data engineer,21211,QC,Quebec,32.69,46.15,60.44
+region,data engineer,21211,QC,Abitibi-Témiscamingue Region,,,
+region,data engineer,21211,QC,Bas-Saint-Laurent Region,,,
+region,data engineer,21211,QC,Capitale-Nationale Region,32.8,48.64,67.79
+region,data engineer,21211,QC,Centre-du-Québec Region,,,
+region,data engineer,21211,QC,Chaudière-Appalaches Region,,,
+region,data engineer,21211,QC,Côte-Nord Region,,,
+region,data engineer,21211,QC,Estrie Region,28.09,42.33,61.78
+region,data engineer,21211,QC,Gaspésie–Îles-de-la-Madeleine Region,,,
+region,data engineer,21211,QC,Lanaudière Region,29.82,42.55,58.28
+region,data engineer,21211,QC,Laurentides Region,32.33,47.4,67.27
+region,data engineer,21211,QC,Laval Region,31.44,48.8,85.17
+region,data engineer,21211,QC,Mauricie Region,,,
+region,data engineer,21211,QC,Montréal Region,30.0,45.0,60.44
+region,data engineer,21211,QC,Montérégie Region,33.28,50.74,70.75
+region,data engineer,21211,QC,Nord-du-Québec Region,,,
+region,data engineer,21211,QC,Outaouais Region,35.38,46.0,56.41
+region,data engineer,21211,QC,Saguenay–Lac-Saint-Jean Region,,,
+province,data engineer,21211,ON,Ontario,32.69,51.37,81.03
+region,data engineer,21211,ON,Hamilton–Niagara Peninsula Region,28.0,50.26,86.54
+region,data engineer,21211,ON,Kingston–Pembroke Region,33.4,45.25,60.57
+region,data engineer,21211,ON,Kitchener–Waterloo–Barrie Region,38.35,51.37,66.67
+region,data engineer,21211,ON,London Region,34.62,48.0,51.28
+region,data engineer,21211,ON,Muskoka–Kawarthas Region,,,
+region,data engineer,21211,ON,Northeast Region,,,
+region,data engineer,21211,ON,Northwest Region,,,
+region,data engineer,21211,ON,Ottawa Region,32.0,53.85,71.79
+region,data engineer,21211,ON,Stratford–Bruce Peninsula Region,,,
+region,data engineer,21211,ON,Toronto Region,32.69,52.2,82.05
+region,data engineer,21211,ON,Windsor-Sarnia Region,32.02,50.49,78.09
+province,data engineer,21211,MB,Manitoba,26.44,44.95,60.1
+region,data engineer,21211,MB,Interlake Region,,,
+region,data engineer,21211,MB,North Central Region,,,
+region,data engineer,21211,MB,North Region,,,
+region,data engineer,21211,MB,Parklands Region,,,
+region,data engineer,21211,MB,South Central Region,,,
+region,data engineer,21211,MB,Southeast Region,,,
+region,data engineer,21211,MB,Southwest Region,,,
+region,data engineer,21211,MB,Winnipeg Region,23.26,41.12,62.26
+province,data engineer,21211,SK,Saskatchewan,32.69,48.56,69.71
+region,data engineer,21211,SK,Northern Region,,,
+region,data engineer,21211,SK,Prince Albert Region,,,
+region,data engineer,21211,SK,Regina–Moose Mountain Region,36.55,50.31,73.62
+region,data engineer,21211,SK,Saskatoon–Biggar Region,,,
+region,data engineer,21211,SK,Swift Current–Moose Jaw Region,,,
+region,data engineer,21211,SK,Yorkton–Melville Region,,,
+province,data engineer,21211,AB,Alberta,26.44,43.27,71.79
+region,data engineer,21211,AB,Athabasca–Grande Prairie–Peace River Region,,,
+region,data engineer,21211,AB,Banff–Jasper–Rocky Mountain House Region,,,
+region,data engineer,21211,AB,Calgary Region,28.21,51.01,75.0
+region,data engineer,21211,AB,Camrose–Drumheller Region,,,
+region,data engineer,21211,AB,Edmonton Region,29.77,46.77,67.96
+region,data engineer,21211,AB,Lethbridge–Medicine Hat Region,,,
+region,data engineer,21211,AB,Red Deer Region,,,
+region,data engineer,21211,AB,Wood Buffalo–Cold Lake Region,,,
+province,data engineer,21211,BC,British Columbia,32.0,51.92,86.54
+region,data engineer,21211,BC,Cariboo Region,,,
+region,data engineer,21211,BC,Kootenay Region,,,
+region,data engineer,21211,BC,Lower Mainland–Southwest Region,34.45,55.0,88.94
+region,data engineer,21211,BC,Nechako Region,,,
+region,data engineer,21211,BC,North Coast Region,,,
+region,data engineer,21211,BC,Northeast Region,,,
+region,data engineer,21211,BC,Thompson–Okanagan Region,28.71,46.97,74.05
+region,data engineer,21211,BC,Vancouver Island and Coast Region,30.95,49.5,74.29
+province,data engineer,21211,YT,Yukon Territory,,,
+province,data engineer,21211,NT,Northwest Territories,,,
+province,data engineer,21211,NU,Nunavut,,,
+province,data scientist,21211,NL,Newfoundland and Labrador,36.0,45.87,66.67
+region,data scientist,21211,NL,Avalon Peninsula Region,39.58,45.87,66.67
+region,data scientist,21211,NL,Notre Dame-Central-Bonavista Bay Region,,,
+region,data scientist,21211,NL,South Coast–Burin Peninsula Region,,,
+region,data scientist,21211,NL,West Coast–Northern Peninsula–Labrador Region,,,
+province,data scientist,21211,PE,Prince Edward Island,,,
+province,data scientist,21211,NS,Nova Scotia,30.0,47.9,73.85
+region,data scientist,21211,NS,Annapolis Valley Region,,,
+region,data scientist,21211,NS,Cape Breton Region,,,
+region,data scientist,21211,NS,Halifax Region,30.0,47.9,74.0
+region,data scientist,21211,NS,North Shore Region,,,
+region,data scientist,21211,NS,Southern Region,,,
+province,data scientist,21211,NB,New Brunswick,25.28,44.99,71.14
+region,data scientist,21211,NB,Campbellton–Miramichi Region,,,
+region,data scientist,21211,NB,Edmundston–Woodstock Region,,,
+region,data scientist,21211,NB,Fredericton–Oromocto,25.82,43.13,70.33
+region,data scientist,21211,NB,Moncton–Richibucto Region,26.42,43.42,67.06
+region,data scientist,21211,NB,Saint John–St. Stephen Region,,,
+province,data scientist,21211,QC,Quebec,32.69,46.15,60.44
+region,data scientist,21211,QC,Abitibi-Témiscamingue Region,,,
+region,data scientist,21211,QC,Bas-Saint-Laurent Region,,,
+region,data scientist,21211,QC,Capitale-Nationale Region,32.8,48.64,67.79
+region,data scientist,21211,QC,Centre-du-Québec Region,,,
+region,data scientist,21211,QC,Chaudière-Appalaches Region,,,
+region,data scientist,21211,QC,Côte-Nord Region,,,
+region,data scientist,21211,QC,Estrie Region,28.09,42.33,61.78
+region,data scientist,21211,QC,Gaspésie–Îles-de-la-Madeleine Region,,,
+region,data scientist,21211,QC,Lanaudière Region,29.82,42.55,58.28
+region,data scientist,21211,QC,Laurentides Region,32.33,47.4,67.27
+region,data scientist,21211,QC,Laval Region,31.44,48.8,85.17
+region,data scientist,21211,QC,Mauricie Region,,,
+region,data scientist,21211,QC,Montréal Region,30.0,45.0,60.44
+region,data scientist,21211,QC,Montérégie Region,33.28,50.74,70.75
+region,data scientist,21211,QC,Nord-du-Québec Region,,,
+region,data scientist,21211,QC,Outaouais Region,35.38,46.0,56.41
+region,data scientist,21211,QC,Saguenay–Lac-Saint-Jean Region,,,
+province,data scientist,21211,ON,Ontario,32.69,51.37,81.03
+region,data scientist,21211,ON,Hamilton–Niagara Peninsula Region,28.0,50.26,86.54
+region,data scientist,21211,ON,Kingston–Pembroke Region,33.4,45.25,60.57
+region,data scientist,21211,ON,Kitchener–Waterloo–Barrie Region,38.35,51.37,66.67
+region,data scientist,21211,ON,London Region,34.62,48.0,51.28
+region,data scientist,21211,ON,Muskoka–Kawarthas Region,,,
+region,data scientist,21211,ON,Northeast Region,,,
+region,data scientist,21211,ON,Northwest Region,,,
+region,data scientist,21211,ON,Ottawa Region,32.0,53.85,71.79
+region,data scientist,21211,ON,Stratford–Bruce Peninsula Region,,,
+region,data scientist,21211,ON,Toronto Region,32.69,52.2,82.05
+region,data scientist,21211,ON,Windsor-Sarnia Region,32.02,50.49,78.09
+province,data scientist,21211,MB,Manitoba,26.44,44.95,60.1
+region,data scientist,21211,MB,Interlake Region,,,
+region,data scientist,21211,MB,North Central Region,,,
+region,data scientist,21211,MB,North Region,,,
+region,data scientist,21211,MB,Parklands Region,,,
+region,data scientist,21211,MB,South Central Region,,,
+region,data scientist,21211,MB,Southeast Region,,,
+region,data scientist,21211,MB,Southwest Region,,,
+region,data scientist,21211,MB,Winnipeg Region,23.26,41.12,62.26
+province,data scientist,21211,SK,Saskatchewan,32.69,48.56,69.71
+region,data scientist,21211,SK,Northern Region,,,
+region,data scientist,21211,SK,Prince Albert Region,,,
+region,data scientist,21211,SK,Regina–Moose Mountain Region,36.55,50.31,73.62
+region,data scientist,21211,SK,Saskatoon–Biggar Region,,,
+region,data scientist,21211,SK,Swift Current–Moose Jaw Region,,,
+region,data scientist,21211,SK,Yorkton–Melville Region,,,
+province,data scientist,21211,AB,Alberta,26.44,43.27,71.79
+region,data scientist,21211,AB,Athabasca–Grande Prairie–Peace River Region,,,
+region,data scientist,21211,AB,Banff–Jasper–Rocky Mountain House Region,,,
+region,data scientist,21211,AB,Calgary Region,28.21,51.01,75.0
+region,data scientist,21211,AB,Camrose–Drumheller Region,,,
+region,data scientist,21211,AB,Edmonton Region,29.77,46.77,67.96
+region,data scientist,21211,AB,Lethbridge–Medicine Hat Region,,,
+region,data scientist,21211,AB,Red Deer Region,,,
+region,data scientist,21211,AB,Wood Buffalo–Cold Lake Region,,,
+province,data scientist,21211,BC,British Columbia,32.0,51.92,86.54
+region,data scientist,21211,BC,Cariboo Region,,,
+region,data scientist,21211,BC,Kootenay Region,,,
+region,data scientist,21211,BC,Lower Mainland–Southwest Region,34.45,55.0,88.94
+region,data scientist,21211,BC,Nechako Region,,,
+region,data scientist,21211,BC,North Coast Region,,,
+region,data scientist,21211,BC,Northeast Region,,,
+region,data scientist,21211,BC,Thompson–Okanagan Region,28.71,46.97,74.05
+region,data scientist,21211,BC,Vancouver Island and Coast Region,30.95,49.5,74.29
+province,data scientist,21211,YT,Yukon Territory,,,
+province,data scientist,21211,NT,Northwest Territories,,,
+province,data scientist,21211,NU,Nunavut,,,

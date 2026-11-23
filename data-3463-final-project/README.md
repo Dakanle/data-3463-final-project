@@ -73,4 +73,4 @@ docs/        proposal, report, notes and planning files
 
 ## Licensing
 
-Job Bank data is under the Open Government Licence – Canada. Adzuna data is used under its API terms. No job boards are scraped.
+Job Bank data is under the Open Government Licence – Canada. Adzuna data is used under its API terms.
