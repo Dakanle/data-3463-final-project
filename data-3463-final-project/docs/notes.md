@@ -17,13 +17,9 @@ Problems / limitations:
 - Only 50 postings per role because of the free plan, and they're the newest ones (TheirStack returns the most recent first), so all are from the last week even though we asked for 90 days. Not a random sample.
 - Title search is loose, so some postings aren't really data jobs (for example "Business Analyst Co-op, Data Governance"). These get filtered in cleaning.
 - Only 45 of 149 postings list a salary, and only 2 are tagged junior (93 mid level, 53 senior).
-- 147 of 149 have coordinates, which we use for the map.
+- 147 of 149 have coordinates, but 21 of those are a placeholder point TheirStack uses for postings that only say "Canada" (60.11, -113.64, middle of Canada). We blank those in cleaning, so 101 of the 123 cleaned postings have a real location.
+- TheirStack terms (https://theirstack.com/en/docs/legal/terms-and-conditions, read Nov 22, 2026): nothing specific about academic or student use. They allow reposting and publicly showing job postings, and say aggregated stats or models made from the data belong to the user, as long as the original dataset can't be rebuilt from them. Not allowed: handing someone a whole dataset or using the data to compete with TheirStack. Our counts and charts are aggregated, and the 149 postings are a tiny sample, so our use fits. TheirStack keeps a database right over its datasets.
 - Adzuna was tested first (Oct 2026) and rejected: descriptions cut at 500 characters, lots of non-data titles, and its terms restrict academic use. Those files are kept in data/raw/adzuna/ for reference.
-
-## API 
-
-
-
 
 
 ## Web scraping - Job Bank wages
@@ -48,3 +44,17 @@ Problems / limitations:
 
 - 
 - The wages are from 2024-2025 but our API job postings are from Oct 2026.
+
+## Cleaning (02_clean) - TheirStack postings and Job Bank wages
+
+Postings: 149 -> 137 after removing 12 titles that matched "data" but aren't data jobs (data centre electrical/mechanical engineers, security engineers, QA testers, an EDI analyst) -> 124 after removing repeat postings (same title at the same company) -> 123 after removing one posting located only in New York. Final: 42 analyst, 35 engineer, 46 scientist.
+- Province filled in from the location text when TheirStack gave "00". 19 postings have no province (they just say "Canada" or nothing).
+- 21 placeholder coordinates blanked, 101 postings have a real location.
+- 38 of 123 have a salary. Salary = middle of the posted range, per year. 12 were in USD, converted at 1.40. 11 had no currency, assumed CAD.
+- Seniority: 76 mid, 45 senior, 2 junior. Our results describe mid/senior jobs, not entry level.
+- 16 skill columns from a keyword search of the description. Keyword matching can miss skills written differently or count words used in another sense (e.g. "ML").
+- Kept "Online Data Analyst - Canada (French Language)" in the data analyst group.
+
+Wages: hourly wages converted to yearly using 1,950 hours (37.5 h x 52 weeks). Province rows kept so they can be used when a region is N/A.
+
+Column definitions are in docs/data_dictionary.md.
